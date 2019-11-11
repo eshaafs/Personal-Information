@@ -1,0 +1,131 @@
+body
+{
+    background-color: #EEEEEE;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container
+{
+    width: 900px;
+    margin: 0px auto;
+    padding: 0%;
+    box-shadow: 2px 2px 2px 2px rgba(0,0,0,.3);
+}
+
+.judul
+{
+    height: 50px;
+    width: 100%;
+    background-color: #22A7F0;
+
+}
+
+h2 
+{
+    text-align: center;
+    margin: 0%;
+    padding: 10px;
+    font-family: 'Teko', sans-serif;
+}
+
+.jumbotran
+{
+    min-height: 200px;
+    background-color: #59ABE3;
+    background-image: url(https://images.unsplash.com/photo-1567450121326-28da3797155d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+
+.jumbotran h1
+{
+    font-size: 40px;
+    top: 55%;
+    left: 33%;
+    color: white;
+    position: absolute;
+    font-family: 'Righteous', cursive;
+}
+
+.content
+{
+    height: 300px;
+    background-color: #89C4F4;
+    position: relative;
+    box-shadow: 0px 0px 3px 0px rgba(0,0,0,.5);
+    box-sizing: border-box;
+}
+
+.content img
+{
+    width: 150px;
+    height: 220px;
+    position: absolute;
+    left: 8%;
+    top: -35%;
+    border-radius: 10%;
+    z-index: 1;
+}
+
+.content img:hover
+{
+    transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+}
+
+.kiri
+{
+    width: 30%;
+    height: 100%;
+    position: relative;
+    float: left;
+    padding: 120px 15px 15px 0px;
+    box-sizing: border-box;
+    line-height: 25px;
+    font-family: 'Acme', sans-serif;
+}
+
+.kanan
+{
+    width: 70%;
+    height: 100%;
+    position: relative;
+    float: left;
+    padding: 25px;
+    box-sizing: border-box;
+    font-family: 'Acme', sans-serif;
+}
+
+.kanan a
+{
+    text-decoration: none;
+    color: black;
+}
+
+.footer
+{
+    height: 65px;
+    width: 100%;
+    background-color: #22A7F0;
+    clear: both;
+    box-sizing: border-box;
+    padding: 20px 20px;
+    overflow: hidden;
+}
+
+.sosmed
+{
+    float: right;
+    width: 30px;
+    height: 30px;
+    margin: 0px 10px;
+
+}
+
+.sosmed:hover
+{
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
